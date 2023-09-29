@@ -1,7 +1,7 @@
 FROM python:3-alpine3.15
 RUN pip install --upgrade pip
 WORKDIR /app
-COPY ./container/ .
+COPY hello.py .
 RUN pip install -r requirement.txt  
 EXPOSE 3000
-CMD python ./webapp.py
+CMD python hello.py
