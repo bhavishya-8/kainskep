@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: gocomet-deployment
+  name: Kainskep-deployment
 spec:
   replicas: 2
   selector:
